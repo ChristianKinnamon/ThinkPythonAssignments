@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyORFYsULziVahTPycx88MXq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ChristianKinnamon/ThinkPythonAssignments/blob/main/Week4/Week4.ipynb%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 22,
+      "metadata": {
+        "id": "uS5l5xC6EWmU"
+      },
+      "outputs": [],
+      "source": [
+        "# Import Statements\n",
+        "#(None)\n",
+        "\n",
+        "\n",
+        "#Function Definitions\n",
+        "\n",
+        "# 1. Define print_bio with three parameters: name, age, and goal.\n",
+        "\n",
+        "# 2. inside the function, use string multiplication (*) for a border line.\n",
+        "\n",
+        "# 3. Print the bio details using the parameter names.\n",
+        "\n",
+        "\n",
+        "# Program Logic\n",
+        "\n",
+        "# 1. Call print_bio using my own info.\n",
+        "\n",
+        "# 2. Call print_bio using [jack].\n",
+        "\n",
+        "# 3. Call print_bio using [bobby].\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
