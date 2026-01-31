@@ -1,0 +1,129 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNkIRR/LC0Kllv/XUtLnkLj",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ChristianKinnamon/ThinkPythonAssignments/blob/main/Week4/Week4.ipynb%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 25,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uS5l5xC6EWmU",
+        "outputId": "92555942-b627-48e4-f515-321a37f3a3b3"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "*************************\n",
+            "Name: Christian, Age: 18, Goal: learn python.\n",
+            "*************************\n",
+            "*************************\n",
+            "Name: Jack, Age: 56, Goal: develop movie animation software.\n",
+            "*************************\n",
+            "*************************\n",
+            "Name: Bobby, Age: 23, Goal: Teach Python.\n",
+            "*************************\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Import Statements\n",
+        "#(None)\n",
+        "\n",
+        "\n",
+        "#Function Definitions\n",
+        "\n",
+        "# 1. Define print_bio with three parameters: name, age, and goal.\n",
+        "\n",
+        "# 2. inside the function, use string multiplication (*) for a border line.\n",
+        "\n",
+        "# 3. Print the bio details using the parameter names.\n",
+        "\n",
+        "\n",
+        "# Program Logic\n",
+        "\n",
+        "# 1. Call print_bio using my own info.\n",
+        "\n",
+        "# 2. Call print_bio using [jack].\n",
+        "\n",
+        "# 3. Call print_bio using [bobby].\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "def print_bio(name, age, goal):\n",
+        "\n",
+        "  print('*' * 25)\n",
+        "\n",
+        "  print('Name: ' + name + ', Age: ' + str(age) + ', Goal: ' + goal +  '.')\n",
+        "\n",
+        "  print(( '*' * 25))\n",
+        "\n",
+        "print_bio('Christian' , 18, 'learn python')\n",
+        "\n",
+        "\n",
+        "\n",
+        "def print_bio(name, age, goal):\n",
+        "\n",
+        "  print('*' * 25)\n",
+        "\n",
+        "  print('Name: ' + name + ', Age: ' + str(age) + ', Goal: ' + goal +  '.')\n",
+        "\n",
+        "  print(( '*' * 25))\n",
+        "\n",
+        "print_bio('Jack Black' , 56, 'Develop movie animation software')\n",
+        "\n",
+        "\n",
+        "\n",
+        "def print_bio(name, age, goal):\n",
+        "\n",
+        "  print('*' * 25)\n",
+        "\n",
+        "  print('Name: ' + name + ', Age: ' + str(age) + ', Goal: ' + goal +  '.')\n",
+        "\n",
+        "  print(( '*' * 25))\n",
+        "\n",
+        "print_bio('Bobby' , 23, 'Teach Python')\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "r6MCffFxg0hw"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
