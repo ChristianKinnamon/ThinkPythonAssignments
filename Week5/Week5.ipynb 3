@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMgkyfHPdELLCCzDukyALjJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ChristianKinnamon/ThinkPythonAssignments/blob/main/Week5/Week5.ipynb%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "vF4aGSa2CSWK"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 54,
+      "metadata": {
+        "id": "bBUJLAq9pb0x",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "7a0fe208-7286-4947-cbba-a94ded6c99ca"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter age:12\n",
+            "Enter movie hour (0-23):16\n",
+            "Your ticket price is $6\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "# Import Statements\n",
+        "\n",
+        "# None\n",
+        "\n",
+        "\n",
+        "# Function Definitions\n",
+        "\n",
+        "# 1. Define calculate_ticket(age,hour)\n",
+        "\n",
+        "# 2. Logic: If age <= 12 or age >= 65, price = 8. Otherwise, price = 12.\n",
+        "\n",
+        "# 3. Logic: If hour < 17, subtract 2 from the price.\n",
+        "\n",
+        "# 4. Print the final price.\n",
+        "\n",
+        "\n",
+        "# Program Logic\n",
+        "\n",
+        "# 1. input () for age (int)\n",
+        "\n",
+        "# 2. input () for movie hour (int)\n",
+        "\n",
+        "# 3. Call calculate_ticket()\n",
+        "\n",
+        "\n",
+        "age = int(input('Enter age:'))\n",
+        "hour = int(input('Enter movie hour (0-23):'))\n",
+        "\n",
+        "def calculate_ticket(age,hour):\n",
+        "\n",
+        " if age <= 12 or age >= 65:\n",
+        "      price = 8\n",
+        " else:\n",
+        "      price = 12\n",
+        "\n",
+        " if hour < 17:\n",
+        "      price -= 2\n",
+        "\n",
+        "\n",
+        " print('Your ticket price is $' + str(price))\n",
+        "\n",
+        "calculate_ticket(age,hour)\n",
+        "\n"
+      ]
+    }
+  ]
+}
