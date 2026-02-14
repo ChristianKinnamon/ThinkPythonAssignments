@@ -1,0 +1,99 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN1pfSG+hWhyQPtPCMeOx3q",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ChristianKinnamon/ThinkPythonAssignments/blob/main/Week6/Week61.ipynb%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 37,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8NeEtBs_5HFu",
+        "outputId": "c4b5b4e0-92f8-4279-ccde-1125b880ad0c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter radius2\n",
+            "circumference12.566370614359172\n",
+            "Area12.566370614359172\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Import Statements\n",
+        "\n",
+        "# 1. Import math\n",
+        "\n",
+        "\n",
+        "# Function Definitions\n",
+        "\n",
+        "# 1. Define area(radius): returns pi * r squared\n",
+        "\n",
+        "# 2. Define Circumference(radius): returns 2 * pi * r\n",
+        "\n",
+        "# 3. Define volume(radius,height):\n",
+        "\n",
+        "#   - Call area(radius) and multiply by height\n",
+        "\n",
+        "#   - Return the result\n",
+        "\n",
+        "\n",
+        "# Program Logic\n",
+        "\n",
+        "# 1. Input for radius (float)\n",
+        "\n",
+        "# 2. Call input and print area and circumference.\n",
+        "\n",
+        "# 3. Input for height (float)\n",
+        "\n",
+        "# 4. Call and print volume\n",
+        "\n",
+        "\n",
+        "import math\n",
+        "\n",
+        "def area(raidus):\n",
+        "    return math.pi * radius ** 2\n",
+        "\n",
+        "def circumference (radius):\n",
+        "    return 2 * math.pi * radius\n",
+        "\n",
+        "radius = float(input('Enter radius'))\n",
+        "\n",
+        "print('circumference' + str(circumference(radius)))\n",
+        "\n",
+        "print('Area' + str(area(radius)))\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
