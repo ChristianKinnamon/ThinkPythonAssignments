@@ -1,0 +1,113 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM68ZQkV2RoAxpnfM+tC9nQ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ChristianKinnamon/ThinkPythonAssignments/blob/main/Week7/Week71.ipynb%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 13,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aPnFIny8L8vQ",
+        "outputId": "69539452-a721-4f2f-e448-318af03466c5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your PIN: 1234\n",
+            " PIN verified successfully.\n",
+            "Enter withdrawal amount: $150\n",
+            "withdrawn successfully\n",
+            "Your current balance is: $350.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "# IMPORT STATEMENTS\n",
+        "\n",
+        "#(None)\n",
+        "\n",
+        "\n",
+        "# Function Definitions\n",
+        "\n",
+        "#  1) Define verify_pin()\n",
+        "\n",
+        "# -Create a loop that asks for a PIN until it equals \"1234\"\n",
+        "\n",
+        "# -Return True\n",
+        "\n",
+        "# 2) Define withdraw(balance, amount):\n",
+        "\n",
+        "# - Check if enough money exists\n",
+        "\n",
+        "# - Return the new (or old) balance\n",
+        "\n",
+        "\n",
+        "# Program Logic\n",
+        "\n",
+        "# 1) Set current_balance to 500\n",
+        "\n",
+        "# 2) call verify_pin()\n",
+        "\n",
+        "# 3) Get withdraw amount from user imput\n",
+        "\n",
+        "# 4) Update current_balance by calling withdraw()\n",
+        "\n",
+        "# 5) Print the final balance\n",
+        "\n",
+        "def verify_pin():\n",
+        "  while True:\n",
+        "    pin = input(\"Enter your PIN: \")\n",
+        "    if pin == \"1234\":\n",
+        "        print(' PIN verified successfully.')\n",
+        "        return True\n",
+        "    else:\n",
+        "        print(\"Incorrect PIN Try again.\")\n",
+        "def  withdraw(balance, amount):\n",
+        "  if amount <= balance:\n",
+        "     balance -= amount\n",
+        "     print(\"withdrawn successfully\")\n",
+        "  else:\n",
+        "     print(\"Insufficient funds\")\n",
+        "  return balance\n",
+        "balance = 500\n",
+        "current_balance = balance\n",
+        "verify_pin()\n",
+        "\n",
+        "amount = float(input(\"Enter withdrawal amount: $\"))\n",
+        "\n",
+        "current_balance = withdraw(balance, amount)\n",
+        "\n",
+        "print(\"Your current balance is: $\" + str(current_balance))\n",
+        "\n"
+      ]
+    }
+  ]
+}
